@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://mrlichangming.github.io/"/>
-  <updated>2019-07-11T06:06:09.050Z</updated>
+  <updated>2019-08-08T01:49:17.659Z</updated>
   <id>https://mrlichangming.github.io/</id>
   
   <author>
@@ -15,28 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title></title>
-    <link href="https://mrlichangming.github.io/2019/08/10/copy-file-index/"/>
-    <id>https://mrlichangming.github.io/2019/08/10/copy-file-index/</id>
-    <published>2019-08-10T05:39:59.539Z</published>
-    <updated>2019-07-11T06:06:09.050Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;需要拷贝的文件&quot;&gt;&lt;a href=&quot;#需要拷贝的文件&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>openresty学习路上的折腾</title>
@@ -455,6 +433,28 @@
     
     
       <category term="vim" scheme="https://mrlichangming.github.io/tags/vim/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>python3的print输出颜色字体</title>
+    <link href="https://mrlichangming.github.io/2019/01/16/python3%E7%9A%84print%E8%BE%93%E5%87%BA%E9%A2%9C%E8%89%B2%E5%AD%97%E4%BD%93/"/>
+    <id>https://mrlichangming.github.io/2019/01/16/python3的print输出颜色字体/</id>
+    <published>2019-01-16T02:44:21.000Z</published>
+    <updated>2019-01-16T02:47:33.294Z</updated>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;p&gt;在编写脚本时，有些提示错误信息想输出带颜色的字体，特备注下&lt;/p&gt;
+&lt;hr&gt;
+    
+    </summary>
+    
+      <category term="python的积累" scheme="https://mrlichangming.github.io/categories/python%E7%9A%84%E7%A7%AF%E7%B4%AF/"/>
+    
+    
+      <category term="python3的print颜色字体" scheme="https://mrlichangming.github.io/tags/python3%E7%9A%84print%E9%A2%9C%E8%89%B2%E5%AD%97%E4%BD%93/"/>
     
   </entry>
   

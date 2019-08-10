@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title></title>
-    <url>%2F2019%2F08%2F10%2Fcopy-file-index%2F</url>
-    <content type="text"><![CDATA[需要拷贝的文件 lsyncd的配置与使用(新增default.rsync配置) openresty的lua代码备忘录(新增文件) linux高阶命令(新增获取本机内网ip命令) linux进程相关(新增) ansible命令与模块的使用(新增忽略文件同步) ansible命令与模块的使用（新增忽略ssh第一次验证操作） docker配置代理pull镜像（新增文件） flock用法详解备忘录(新增文件) linux高阶命令使用(新增获取系统当前时间)]]></content>
-  </entry>
-  <entry>
     <title><![CDATA[openresty学习路上的折腾]]></title>
     <url>%2F2019%2F08%2F07%2Fopenresty%E5%AD%A6%E4%B9%A0%E8%B7%AF%E4%B8%8A%E7%9A%84%E6%8A%98%E8%85%BE%2F</url>
     <content type="text"><![CDATA[openresty学习之路的备忘录 获取uri12local uri = ngx.var.uri # 获取请求的uri,不带参数local uri = ngx.var.request_uri # 获取请求的uri,携带参数]]></content>

@@ -100,7 +100,7 @@
 <meta property="og:site_name" content="Changming&#39;s blogs">
 <meta property="og:description" content="django的类视图中的模板页面加载django的数据库模型增删改查">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-03-22T04:21:25.315Z">
+<meta property="og:updated_time" content="2019-06-08T09:30:51.330Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="python学习六-django模板页面和数据库模型操作">
 <meta name="twitter:description" content="django的类视图中的模板页面加载django的数据库模型增删改查">
@@ -411,7 +411,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  6k
+                  6.1k
                 </span>
               
 
@@ -592,7 +592,8 @@
 <p>建议以被关联模型名称的复数形式做为 ManyToManyField 的名字<br>在哪个模型中设置 ManyToManyField 并不重要，在两个模型中任选一个即可——不要在两个模型中都设置</p>
 <p>add(obj1, obj2, …)        #添加一指定的模型对象到关联的对象集中。<br>create(**kwargs)        #创建一个新的对象，将它保存并放在关联的对象集中。返回新创建的对象。<br>remove(obj1, obj2, …)    #从关联的对象集中删除指定的模型对象。<br>clear()            #从关联的对象集中删除所有的对象</p>
 <h1 id="一对一"><a href="#一对一" class="headerlink" title="一对一"></a>一对一</h1><p>一对一是通过django.db.models.OneToOneField来实现的，被关联的Model会被加上Unique的限制， OneToOneField要一个位置参数，与模型关联的类<br>当某个对象想扩展自另一个对象时，最常用的方式就是在这个对象的主键上添加一对一关系</p>
-<h1 id="总结-案例"><a href="#总结-案例" class="headerlink" title="总结(案例)"></a>总结(案例)</h1>
+<h1 id="总结-案例"><a href="#总结-案例" class="headerlink" title="总结(案例)"></a>总结(案例)</h1><p>使用django内置的User表查询数据<br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 启动django的shell</span></span><br><span class="line">python manage.py shell</span><br><span class="line"><span class="keyword">from</span> django.contrib.auth.models <span class="keyword">import</span> User  <span class="comment">#导入User表</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 通过类管理器</span></span><br><span class="line"><span class="comment"># filter</span></span><br><span class="line">User.objects.filter(name=<span class="string">"sun-1"</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># get</span></span><br><span class="line">User.objects.get(name=<span class="string">"sun-1"</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment"># 通过get 查询其他数据</span></span><br><span class="line">In [<span class="number">5</span>]: u = User.objects.get(username=<span class="string">"sun-1"</span>)                                                                </span><br><span class="line">In [<span class="number">6</span>]: u.username                                                                                             </span><br><span class="line">Out[<span class="number">6</span>]: <span class="string">'sun-1'</span></span><br><span class="line"></span><br><span class="line">In [<span class="number">7</span>]: u.email                                                                                                </span><br><span class="line">Out[<span class="number">7</span>]: <span class="string">'sun-1@163.com'</span></span><br></pre></td></tr></table></figure></p>
+
       
     </div>
     
@@ -763,7 +764,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">90</span>
+                  <span class="site-state-item-count">98</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -774,7 +775,7 @@
               
               <div class="site-state-item site-state-categories">
                 <a href="/分类/index.html">
-                  <span class="site-state-item-count">23</span>
+                  <span class="site-state-item-count">29</span>
                   <span class="site-state-item-name">分类</span>
                 </a>
               </div>
@@ -785,7 +786,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/标签/index.html">
-                  <span class="site-state-item-count">70</span>
+                  <span class="site-state-item-count">74</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -923,7 +924,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共 43.8k 字</span>
+  <span class="post-count">博客全站共 46.1k 字</span>
 </div>
 
         
